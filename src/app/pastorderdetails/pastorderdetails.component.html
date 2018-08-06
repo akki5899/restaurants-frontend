@@ -1,0 +1,14 @@
+<table border="2px">
+<th>BILL NO</th>
+<th>DISHNAME</th>
+<th>QTY</th>
+<th>DISH PRICE</th>
+<th>Total PRICE</th>
+<tr *ngFor="let item of pastorder">
+  <td>{{item.bill_no}}</td>
+  <td>{{item.dish_name}}</td>
+  <td>{{item.qty}}</td>
+  <td>{{item.dish_price}}</td>
+  <td>{{item.price}}</td>
+</tr>
+</table>

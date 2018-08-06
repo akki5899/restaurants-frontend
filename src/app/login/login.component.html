@@ -1,0 +1,21 @@
+
+  <div class="container">
+    <h1>LOG IN</h1>
+  <table  class="table ">
+    <tr>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="EMAIL ID" type="email" [(ngModel)]="email_id" >
+    </mat-form-field>
+  <tr>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="password" [(ngModel)]="password" type="password">
+    </mat-form-field>
+  </tr>
+</table>
+<button mat-raised-button color="primary" (click)="login()">LOG IN</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <button mat-raised-button (click)="signup()">SIGN UP</button>&nbsp;&nbsp;&nbsp;
+<a mat-raised-button routerLink="." (click)="onForget()">Forget Password??</a> -->
+
+  </div>
+

@@ -1,0 +1,17 @@
+<table *ngFor="let item of billtbl" border="5px solid black">
+  <th>Amount</th>
+  <th>Date</th>
+  <tr>
+    <td>Amount</td>
+    <td>Date</td>
+  </tr>
+  <tr>
+    <td>{{item.amount}}</td>
+    <td>{{item.date}}</td>
+    <td>
+        <button type="button" class="btn btn-default btn-lg " >
+            <span class="glyphicon glyphicon-check" aria-hidden="true" (click)="pastorder(item)" >View Details</span>
+          </button>
+    </td>
+  </tr>
+</table>
